@@ -1,6 +1,6 @@
 <?php
 //2.1.25 WorkersZengGangProportion
-class RegionSpecificationRanking extends CI_Controller {
+class WorkersZengGangProportion extends CI_Controller {
 
     function index()
     {

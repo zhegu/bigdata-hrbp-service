@@ -11,7 +11,7 @@ class EmpInPostSummary extends CI_Controller {
             "inPostYesRate"=>array(array("proportion"=>"30%","totalNum"=>"63")),
             "inPostNoRate"=>array(array("proportion"=>"70%","totalNum"=>"742"))
          );
-        $result = $data;
+        $result['data'] = $data;
         echo json_encode($result);
     }
     

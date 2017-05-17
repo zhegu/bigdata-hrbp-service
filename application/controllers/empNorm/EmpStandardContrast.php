@@ -1,18 +1,18 @@
 <?php
-//2.1.5 positionStabilityIndex
-class PositionStabilityIndex extends CI_Controller {
+//2.1.48 empStandardContrast
+class EmpStandardContrast extends CI_Controller {
     function index()
     {
         date_default_timezone_set('UTC');
         $time = date("Y-m-d H:i:s");
         $result = array("code"=>200, "status"=>"success", "message"=>"success","time"=>$time);
-        $data = array(array(
-            "index"=>"78"
-        )
+        $data = array(
+            array(
+                "normNoRateNum"=>"78",
+                "normYesRateNum"=>"600"
+            )
         );
         $result["data"] = $data;
         echo json_encode($result);
     }
-
-
 }
