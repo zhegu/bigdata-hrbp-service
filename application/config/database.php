@@ -70,16 +70,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-//  注意事项：除默认数据库外其他的数据库的pconnect键名对应的键值为FALSE
 $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '115.28.20.72:3306',
-	'username' => 'root',
-	'password' => 'lizhe',
-	'database' => 'MyFirstDB',
+	'hostname' => 'localhost',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
