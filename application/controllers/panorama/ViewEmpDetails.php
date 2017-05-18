@@ -19,6 +19,4 @@ class ViewEmpDetails extends CI_Controller {
         $result["data"] = $data;
         echo json_encode($result);
     }
-
-
 }

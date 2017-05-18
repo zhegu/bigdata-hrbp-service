@@ -20,7 +20,7 @@ class UserLogin extends CI_Controller {
                 "postName"=>"总经理"
 			)
         );
-        $result = $data;
+        $result["data"] = $data;
         echo json_encode($result);
     }
 

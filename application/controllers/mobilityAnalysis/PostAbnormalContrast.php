@@ -14,6 +14,4 @@ class PostAbnormalContrast extends CI_Controller {
         $result["data"] = $data;
         echo json_encode($result);
     }
-
-
 }
