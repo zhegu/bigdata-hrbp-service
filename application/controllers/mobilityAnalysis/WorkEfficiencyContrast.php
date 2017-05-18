@@ -8,24 +8,11 @@ class WorkEfficiencyContrast extends CI_Controller {
         $result = array("code"=>200, "status"=>"success", "message"=>"success","time"=>$time);
         $data = array(
             array(
-            "workEfficiency"=>"高效",
-            "proNum"=>"10"
-            ),
-            array(
-                "workEfficiency"=>"勤奋",
-                "proNum"=>"4"
-            ),
-            array(
-                "workEfficiency"=>"懒惰",
-                "proNum"=>"5"
-            ),
-            array(
-                "workEfficiency"=>"低效",
-                "proNum"=>"8"
-            ),
-            array(
-                "workEfficiency"=>"普通",
-                "proNum"=>"9"
+                "compareType"=>array("东城区","西城区","海淀区"),
+                "data"=>array(
+                    array("nama"=>"高效","value"=>array(10,20,30)),
+                    array("nama"=>"勤奋","value"=>array(10,20,30))
+                )
             )
         );
         $result["data"] = $data;

@@ -8,8 +8,12 @@ class EmpStandardContrast extends CI_Controller {
         $result = array("code"=>200, "status"=>"success", "message"=>"success","time"=>$time);
         $data = array(
             array(
-                "normNoRateNum"=>"78",
-                "normYesRateNum"=>"600"
+                "compareType"=>array("东城区","西城区","海淀区"),
+                "data"=>array(
+                    array("nama"=>"告警","value"=>array(10,20,30)),
+                    array("nama"=>"提示","value"=>array(10,20,30)),
+                    array("nama"=>"正常","value"=>array(10,20,30))
+                )
             )
         );
         $result["data"] = $data;

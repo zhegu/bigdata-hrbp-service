@@ -10,6 +10,7 @@ class GetTokenInfo extends CI_Controller {
         $result["authToken"] = "7cdbc040-657a-4847-b266-7e31d9e2c300";
         $result["refreshToken"] = "4cdbc040-657a-4847-b266-7e31d9e2c3d9";
         $result["validDuration"] = "180";
+        $result["data"] = "";
         echo json_encode($result);
     }
 }
