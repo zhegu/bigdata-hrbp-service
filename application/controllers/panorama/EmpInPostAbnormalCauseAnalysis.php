@@ -11,18 +11,18 @@ class EmpInPostAbnormalCauseAnalysis extends CI_Controller {
         $data = array(
             array(
             "postAbnormalType" =>"岗位变动",
-            "totalNum"=>"3",
-            "proportion" =>"16%"
+            "totalNum"=>"30",
+            "proportion" =>"36%"
             ),
             array(
                 "postAbnormalType" =>"离职",
-                "totalNum"=>"12",
-                "proportion" =>"68%"
+                "totalNum"=>"22",
+                "proportion" =>"30%"
             ),
             array(
                 "postAbnormalType" =>"其他",
-                "totalNum"=>"3",
-                "proportion" =>"16%"
+                "totalNum"=>"13",
+                "proportion" =>"44%"
             )
         );
         $result["data"] = $data;
