@@ -22,7 +22,7 @@ class EmpInPostAbnormalCauseAnalysis extends CI_Controller {
             array(
                 "postAbnormalType" =>"其他",
                 "totalNum"=>"13",
-                "proportion" =>"44%"
+                "proportion" =>"34%"
             )
         );
         $result["data"] = $data;
